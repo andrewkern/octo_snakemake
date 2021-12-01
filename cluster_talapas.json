@@ -1,0 +1,31 @@
+{
+    "__default__" :
+    {
+        "time" : "00:02:00",
+        "n" : 1,
+        "partition" : "kern,kerngpu",
+        "mem" : "10Gb",
+	"cores" : "1",
+	"account" : "kernlab"
+    },
+
+    "run_hifiasm" :
+    {
+        "time" : "15:00:00",
+        "partition" : "kerngpu",
+        "cores" : "12",
+	"mem" : "160G",
+	"account" : "kernlab"
+    },
+
+    "gfa_to_fastq":
+    {
+        "time" : "00:01:00",
+        "n" : 1,
+        "partition" : "kern,kerngpu",
+        "mem" : "1Gb",
+	"cores" : "3",
+	"account" : "kernlab"
+    }
+
+}
